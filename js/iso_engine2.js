@@ -69,14 +69,14 @@ BasicGame.Boot.prototype = {
         var randomTime = Math.floor(Math.random() * new Date().getTime());
         //console.log(randomTime);
         game.load.crossOrigin='Anonymous';
-        game.load.bitmapFont('font', 'assets/font.png?r=randomTime', 'assets/font.xml?r=randomTime');
+        // game.load.bitmapFont('font', 'assets/font.png?r=randomTime', 'assets/font.xml?r=randomTime');
         game.load.image('greenTile', 'assets/green_tile.png?r=randomTime');
         game.load.image('redTile', 'assets/red_tile.png?r=randomTime');
         game.load.image('heroTile', 'assets/hero_tile.png?r=randomTime');
         game.load.image('heroShadow', 'assets/ball_shadow.png?r=randomTime');
         game.load.image('floor', 'assets/floor.png?r=randomTime');
         game.load.image('wall', 'assets/block.png?r=randomTime');
-        game.load.image('door', 'assets/door.png?r=randomTime');
+        // game.load.image('door', 'assets/door.png?r=randomTime');
         game.load.image('ball', 'assets/ball.png?r=randomTime');
         game.load.image('pickup', 'assets/pickup.png?r=randomTime');
 
