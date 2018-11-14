@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Isometric Engine</title>
 	<script>var rnd = Math.random()*new Date().getTime()</script>
